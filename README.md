@@ -10,3 +10,6 @@ It makes use of the Auotrain-advanced package from hugging face: https://github.
 ```
 pip install autotrain-advanced
 ```
+## How to run
+Make a folder called 'images' after cloning the repo in the repository. Add 5-6 images that you want to fine-tune the model.
+
