@@ -12,4 +12,10 @@ pip install autotrain-advanced
 ```
 ## How to run
 Make a folder called 'images' after cloning the repo in the repository. Add 5-6 images that you want to fine-tune the model.
+```
+python AutoTrain_Dreambooth.py
+```
+The above line will create a folder called 'my_dreambooth_project' to store the weights of the model.
+Moreover, the output images will be stored as generated_image.
 
+Ideally, the prompt should include a unique code identifier such as 'sks person', 'sks dog', so the model doesn't get confused with existing names. 
